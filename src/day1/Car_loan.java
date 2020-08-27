@@ -11,7 +11,7 @@ System.out.println("Web Login car Loan");
 @Test  
 public void MobileLoginCarLoan()  
 {  
-System.out.println(" EEENE Mobile Login car Loan");  
+System.out.println("Mobile Login car Loan");  
 }  
 @Test(groups= {"SmokeTest"})  
 public void APILoginCarLoan()  
