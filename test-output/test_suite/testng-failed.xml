@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [test_suite]">
+  <test name="Personal Loan">
+    <groups>
+      <run>
+        <include name="SmokeTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="day1.Personal_loan"/>
+    </classes>
+  </test> <!-- Personal Loan -->
+  <test name="Home Loan">
+    <classes>
+      <class name="day1.Home_loan"/>
+    </classes>
+  </test> <!-- Home Loan -->
+  <test name="Car Loan">
+    <classes>
+      <class name="day1.Car_loan"/>
+    </classes>
+  </test> <!-- Car Loan -->
+</suite> <!-- Failed suite [test_suite] -->
