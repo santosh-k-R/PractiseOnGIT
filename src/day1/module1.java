@@ -12,5 +12,5 @@ public class module1
     @Test  
     public void test2()  
     {  
-        System.out.println("JTP Travels");  
+        System.out.println("i am in testing second time branch JTP Travels");  
     }}  
